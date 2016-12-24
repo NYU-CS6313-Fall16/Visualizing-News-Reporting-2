@@ -42,4 +42,17 @@ $ ./mongod --dbpath /home/rahulkhanna/mongodb/mongodb/data &
 
 1) Import the code in intelliJ and build the project as maven project.
 2) Upon building, it will create a jar file which needs to be placed on the unix box.
-3) Run Application.java which will create a tomcat server and start services on it.
+
+------------Building collection in MongoDB---------------------
+
+1)  Download the data from the below link and rename it to data.csv
+
+https://dl.dropboxusercontent.com/u/428478238/research/backtest_students_sample.csv.gz 
+
+2) Place data.csv in the root directory of the application.
+3) Run com.newsvisualizer.visualization.predataoperations.DataEnricher.java which will create the data and upload it in mongodb.
+
+---------------Run Application-----------------
+
+1) Run com.newsvisualizer.visualization.bootstrap.Application.java to run the application.
+
