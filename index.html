@@ -401,7 +401,7 @@
  		  //Set X axis scale
       var xScale = d3.scale.ordinal()
         .domain(newx_elements)
-        .rangeBands([0, newx_elements.length * itemSize]);
+	.rangeBands([0, newx_elements.length * (itemSize + 1.25)]);
 
     //Set X axis
     var xAxis = d3.svg.axis()
