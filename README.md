@@ -56,3 +56,7 @@ https://dl.dropboxusercontent.com/u/428478238/research/backtest_students_sample.
 
 1) Run com.newsvisualizer.visualization.bootstrap.Application.java to run the application.
 2) Run simple python server in the directory where index.html is placed which is the root directory of the application.
+
+--------------Demo Video Link-----------------
+
+https://www.youtube.com/watch?v=0ef_En0JIW8&feature=youtu.be 
